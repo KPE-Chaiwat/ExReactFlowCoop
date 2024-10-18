@@ -1,0 +1,32 @@
+/* NumberInputWithDropdown.module.css */
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 60px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.decreaseButton,
+.increaseButton {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.decreaseButton {
+  border-right: none; /* To avoid double border with the input */
+}
+
+.increaseButton {
+  border-left: none; /* To avoid double border with the input */
+}
